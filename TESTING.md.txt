@@ -1,0 +1,20 @@
+# Testing
+
+The Student Fee Payment System was tested using different inputs to confirm
+that the program works correctly.
+
+## Test Cases
+
+| Test Case | Input | Expected Result | Result |
+|---|---|---|---|
+| Fully paid | Fees: 500000, Paid: 500000 | Status: Fully Paid, Balance: 0 | Passed |
+| Partially paid | Fees: 500000, Paid: 300000 | Status: Partially Paid, Balance: 200000 | Passed |
+| No payment | Fees: 500000, Paid: 0 | Status: No Payment, Balance: 500000 | Passed |
+| Negative payment | Paid: -10000 | Program asks for a valid amount | Passed |
+| Overpayment | Fees: 500000, Paid: 600000 | Overpayment: 100000 | Passed |
+| Multiple students | 3 students entered | All 3 students are processed | Passed |
+
+## Conclusion
+
+The tests confirmed that the main features of the Student Fee Payment System
+work as expected.
