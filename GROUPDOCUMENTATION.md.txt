@@ -1,0 +1,36 @@
+# Group Contributions
+
+## Project: Student Fee Payment System
+
+This project was developed as a group assignment.
+
+### Group Members
+
+| Member | Contribution |
+|---|---|
+| SSENKUBUGE TRAZOR TITUS- 25/U/15667/EVE| Developed and integrated the main Java application |
+| NAMWAGALA HANNAH-25/U/15500/PS | Improved code comments and documentation |
+| BUKIRWA DENISE NICOLATE-25/U/15001/PS | Improved the project README |
+AND | Tested the application and documented test results |
+| SSENKUBUGE TRAZOR TITUS| Prepared group contribution documentation |
+
+## Project Technologies
+
+- Java
+- Eclipse IDE
+- GitHub
+
+## Java Concepts Used
+
+- While loop
+- For loop
+- Do-while loop
+- Ternary operator
+- Conditional statements
+- Scanner input
+
+## Collaboration
+
+The project was developed collaboratively using GitHub branches,
+commits, and pull requests. Each member contributed to the project
+through their assigned task.
