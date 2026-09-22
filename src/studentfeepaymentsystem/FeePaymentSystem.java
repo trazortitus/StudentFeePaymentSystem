@@ -7,7 +7,7 @@ public class FeePaymentSystem {
 		Scanner scanner = new Scanner(System.in);
 		
 		
-		//while loop : keeps the application running until the user chooses to exit
+		//while loop : it keeps the application running until the user chooses to exit
 		int choice =1;
 		while(choice==1) {
 			System.out.println("===============================");
@@ -30,7 +30,7 @@ public class FeePaymentSystem {
 			double total_balance = 0;
 			
 			
-			//for loop : processes the fee information for each student
+			//for loop : used to initialize, condition and update a block of a code
 			
 			
 			for (int i=1; i <= number_of_students; i++) {
@@ -43,7 +43,7 @@ public class FeePaymentSystem {
 				double required_fees = scanner.nextDouble();
 				
 				
-				//do while loop : ensures the amount paid is not negative
+				//do while loop : repeatedly executes a block of code at after execution
 				double amount_paid;
 				 do {
 					 System.out.println("Enter amount paid: ");
@@ -63,7 +63,7 @@ public class FeePaymentSystem {
 					balance = 0;
 				}
 				
-				// ternary statement : determines the students payment status
+				// ternary statement : is a short way of writing an if-else statement
 				String status = amount_paid == 0? "No payment" :
 					amount_paid >= required_fees ? "Fully Paid" :
 						"Partially Paid";
